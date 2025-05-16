@@ -35,7 +35,7 @@ public class Vacante implements Serializable {
 
     @Override
     public String toString() {
-        return "Titulo:" + titulo +  " Salario por mes:" + salario +  "Descripcion:" + descripcion +  " Nombre de la empresa:" + nombreEmpresa;
+        return "Titulo:" + titulo +  " Salario por mes:" + salario +  " Descripcion:" + descripcion +  " Nombre de la empresa:" + nombreEmpresa;
     }
     public boolean equals(Object obj) {
     if (this == obj) return true;
